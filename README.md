@@ -4,9 +4,9 @@ This repository contains a collection of projects that demonstrate my skills and
 # ABOUT ME
 I am a young and motivated data analysyt with one year experience and strong background in using data analytics tools such as Tableau, Power BI, Excel and SQL for data anlysis and visualization. I am also learning everyday effective methods to perform analysis. I possess excellent communication skills, allowing me to collaborate effectively with teams and stakeholders to achieve common goals. 
 
-My profile on [Linkedln](https://www.linkedin.com/in/adesuyiemmanuelomole/)
-My [Portfolio Website]
-My CV
+- My profile on [Linkedln](https://www.linkedin.com/in/adesuyiemmanuelomole/)
+- My [Portfolio Website]
+- My CV
 
 # MY PROJECTS
 # Project 1 - COVID DATA ANALYSIS & VISUALIZATION 
