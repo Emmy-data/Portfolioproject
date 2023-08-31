@@ -14,4 +14,4 @@ As a new data analyst, I analyzed the Covid-19 data for the year 2020 and 201, t
 
 [View the interactive dashboard here](https://public.tableau.com/app/profile/adesuyi.emmanuel.omole/viz/CovidDataVisualization_16934282535960/Dashboard1?publish=yes)
 
-![]([image.jpg](https://github.com/Emmy-data/Portfolioproject/blob/main/images/capture_20230831141159311.bmp)https://github.com/Emmy-data/Portfolioproject/blob/main/images/capture_20230831141159311.bmp)
+![]([image.jpg](https://github.com/Emmy-data/Portfolioproject/blob/main/images/capture_20230831141159311.bmp)
