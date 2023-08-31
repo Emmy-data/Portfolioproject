@@ -1,3 +1,5 @@
+-- Covid data Exploration (01/01/2020 - 30/04/2021)
+
 CREATE TABLE coviddeaths(
 	iso_code varchar, continent	varchar, location varchar, date	date, population bigint, total_cases int, 
 	new_cases int, new_cases_smoothed decimal, total_deaths int, new_deaths int, new_deaths_smoothed decimal,
@@ -167,14 +169,17 @@ WHERE dea.continent is not NULL
 ORDER BY 2,3
 
 
--- Data exported for visualization
--- Total new cases, death and percentage from the whole world.
+-- Data exported for Tableau visualization
+	
+-- 1.Total new cases, death and percentage from the whole world.
 SELECT SUM(new_cases) AS "Total cases", SUM (new_deaths) AS "Total deaths", SUM(new_deaths)/SUM (new_cases)*100
 AS "Death percentage"
 FROM coviddeaths
 WHERE continent is not NULL
 ORDER BY 1,2
 
+-- 2. Total death cases by continent
+-- N.B: European Union is part of Europe
 SELECT location, SUM (new_deaths) AS "Totaldeaths"
 FROM coviddeaths
 WHERE continent is NULL
@@ -182,14 +187,14 @@ and location not in ('World','European Union', 'International')
 Group by location
 ORDER BY "Totaldeaths" DESC
 
--- Checking the counntries with the highest infection rate
+-- 3. Checking the counntries with the highest infection rate
 SELECT location, population, MAX (total_cases) AS "HighestInfectionCount", MAX (cast(total_cases as decimal) / population) * 100
 AS "perpopulation_infected"
 FROM coviddeaths
 GROUP BY location, population
 ORDER BY "perpopulation_infected" DESC;
 
--- Checking the counntries with the highest infection rate (with date included)
+-- 4. Checking the counntries with the highest infection rate (with date included)
 SELECT location, population, date, MAX (total_cases) AS "HighestInfectionCount", MAX (cast(total_cases as decimal) / population) * 100
 AS "perpopulation_infected"
 FROM coviddeaths
