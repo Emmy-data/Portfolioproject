@@ -1,6 +1,3 @@
-(Click here to view the Tableau Dashboard)(https://public.tableau.com/app/profile/adesuyi.emmanuel.omole/viz/CovidDataVisualization_16934282535960/Dashboard1?publish=yes)
-
-
 CREATE TABLE coviddeaths(
 	iso_code varchar, continent	varchar, location varchar, date	date, population bigint, total_cases int, 
 	new_cases int, new_cases_smoothed decimal, total_deaths int, new_deaths int, new_deaths_smoothed decimal,
