@@ -9,9 +9,14 @@ I am a young and motivated data analysyt with one year experience and strong bac
 - My CV
 
 # Projects
-# Project 1 - COVID DATA ANALYSIS & VISUALIZATION 
-As a new data analyst, I analyzed the Covid-19 data for the year 2020 and 201, to check the indicators such as number of people affected in each country and continent. This data also helps to provide the percentage of population affected per country. The tools used are SQL and Tableau.
+# COVID-19 DATA ANALYSIS & VISUALIZATION 
+As a new data analyst, I analyzed the Covid-19 data for the year 2020 and 2021, to check the global indicators such as number of people affected in each country and continent, number of deaths and new cases each day. This data also helps to provide the percentage of population affected per country. The tools used are SQL and Tableau.
 
 [View the interactive dashboard here](https://public.tableau.com/app/profile/adesuyi.emmanuel.omole/viz/CovidDataVisualization_16934282535960/Dashboard1?publish=yes)
 
 ![](https://github.com/Emmy-data/Portfolioproject/blob/main/images/capture_20230831141159311.bmp)
+
+
+
+# Contact
+If you would like to contact me and collaborate on any project, you can reach me via adesuyiomole@gmail.com or any of my social media handles.
